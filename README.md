@@ -90,6 +90,8 @@ kütüphanleri indirdikten sonra aşağıdaki kodlarlara giriş ekranını ulaş
 ```
 cd ~/Masaüstü/Pardus-Media-Master*
 
+cd proje_pro
+
 chmod +x pro_main.sh
 
 ./pro_main.sh
