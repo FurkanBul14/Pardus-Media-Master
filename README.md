@@ -34,7 +34,7 @@ Fare ve pencere odaklı, modern bir deneyim sunar. YAD kütüphanesi ile tasarla
 * **Gelişmiş Efektler:** Siyah-Beyaz, Negatif ve **Sepia (Nostalji)** efektleri.
 * **Teknik Analiz:** Resimlerin EXIF ve boyut bilgilerini raporlar.
 
-*(Aşağıdaki görselde GUI Ana Menüsü, Analiz ve OCR işlem sonuçları görülmektedir)*
+*(Aşağıdaki görsellerde GUI Ana Menüsü, Analiz,OCR işlem sonuçları ve Sepia(Nostalji) efektinin resimleri görülmektedir)*
 
 ![GUI Ana Menü](resimler/gui_ana_menu.png)
 ![Analiz Raporu](resimler/gui_analiz_raporu.png)
@@ -49,7 +49,7 @@ Düşük sistem kaynağı tüketen, klavye ile yönetilen hızlı arayüz. Whipt
 * Sistem yöneticileri ve terminal severler için optimize edilmiştir.
 * Hızlı ve pratiktir.
 
-*(Aşağıdaki görselde Terminal Arayüzü menü yapısı ve işlem adımları görülmektedir)*
+*(Aşağıdaki görsellerde Terminal Arayüzü menü yapısı ve işlem adımları görülmektedir)*
 
 ![TUI Ana Menü](resimler/tui_ana_menu.png)
 ![Dosya Girişi](resimler/tui_dosya_girisi.png)
@@ -96,3 +96,10 @@ chmod +x pro_main.sh
 
 ./pro_main.sh
 ```
+---
+
+## Proje Tanıtım Videosu
+
+Projenin kurulumunu, çalışma mantığını ve örnek işlemlerini aşağıdaki videodan izleyebilirsiniz:
+
+[👉 **YouTube Tanıtım Videosunu İzlemek İçin Tıklayın**](https://www.youtube.com/watch?v=Et6iNnHFNEg)
