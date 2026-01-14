@@ -73,20 +73,8 @@ sudo apt install yad whiptail imagemagick graphicsmagick-imagemagick-compat tess
 
 ### 3. Programı Başlatma
 
-**Adım 1: Klasörün İçine Girin**
-Terminali açın ve şu komutu yapıştırın:
-*(Not: Sondaki yıldız işareti, klasör isminiz `-main` ile bitse bile terminalin doğru yeri bulmasını sağlar.)*
-
 cd ~/Masaüstü/Pardus-Media-Master*
-Adım 2: Çalıştırma İzni Verin
-Script dosyasının çalışabilmesi için şu komutu girin:
-
-B
-
 chmod +x pro_main.sh
-Adım 3: Çalıştırın
-Artık programı başlatabilirsiniz:
-
-
 ./pro_main.sh
+
 Program açıldığında GUI (Grafik Arayüz) seçeneğini seçin. Dosya seçme penceresi geldiğinde, klasörün içindeki ornek_metin.jpg dosyasını seçerek sonucu hemen görebilirsiniz.
