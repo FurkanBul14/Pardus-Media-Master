@@ -50,13 +50,25 @@ Düşük sistem kaynağı tüketen, klavye ile yönetilen hızlı arayüz. Whipt
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+## 🚀 İndirme ve Çalıştırma Rehberi
 
-Bu projeyi kendi bilgisayarınızda (veya Pardus sanal makinenizde) çalıştırmak için aşağıdaki adımları izleyin.
+Projeyi bilgisayarınıza indirip hemen test etmek için aşağıdaki adımları sırasıyla uygulayın.
 
-### Adım 1: Gerekli Paketlerin Yüklenmesi
-Projenin çalışması için gerekli kütüphaneleri (YAD, ImageMagick, Tesseract) yüklemek için terminali açın ve şu komutu yapıştırın:
+### 1. Projeyi İndirme
+Bu sayfanın sağ üst köşesindeki yeşil **"Code"** butonuna tıklayın ve **"Download ZIP"** seçeneğini seçin. İnen dosyayı masaüstüne çıkartın.
 
+*(Alternatif olarak Git kullanıyorsanız terminalden `git clone` komutu ile de çekebilirsiniz.)*
+
+### 2. Hazır Test Materyalleri
+İndirdiğiniz klasörün içinde, programın özelliklerini hemen deneyebilmeniz için özel test resimleri bulunmaktadır:
+
+* **`ss1.png`**: Bu resmi seçerek **Yapay Zeka (OCR)** özelliğini test edebilir, resimdeki yazıları metne çevirebilirsiniz.
+* **`galatasaray.jpg`**: Bu resmi kullanarak **Format Dönüştürme, Sepia Efekti** ve **Boyutlandırma** işlemlerini deneyebilirsiniz.
+
+### 3. Komutları Çalıştırma
+Terminali açın, indirdiğiniz proje klasörünün içine girin ve sırasıyla şu komutları uygulayın:
+
+**Adım 1: Çalıştırma İzni Verin**
+(Bu işlem sadece ilk seferde gereklidir)
 ```bash
-sudo apt update
-sudo apt install yad whiptail imagemagick graphicsmagick-imagemagick-compat tesseract-ocr tesseract-ocr-tur -y
+chmod +x pro_main.sh
