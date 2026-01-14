@@ -1,8 +1,6 @@
-# ImageMagick Tabanlı Resim Dizayn Aracı (GUI & TUI)
+#  Resim Dizayn Aracı (GUI & TUI)
 
-> **Linux dünyasında komut satırına hapsolmadan; resim işleme, format dönüştürme ve Yapay Zeka (OCR) işlemlerini tek bir çatı altında toplayan profesyonel bir Bash Script projesi.**
-
-## 📖 Proje Hakkında
+##  Proje Hakkında
 
 Bu proje, **Kabuk Programlama (Shell Scripting)** dersi kapsamında geliştirilmiştir. Temel amacı, Linux terminalinde güçlü ancak kullanımı karmaşık olan `ImageMagick` ve `Tesseract` gibi araçları, son kullanıcı için basit ve anlaşılır bir arayüze kavuşturmaktır.
 
@@ -21,7 +19,7 @@ Bu projenin arkasında yatan güç, aşağıdaki açık kaynak teknolojilerin bi
 
 ---
 
-## 🖥️ Arayüzler ve Özellikler
+##  Arayüzler ve Özellikler
 
 Proje açılışta kullanıcıya iki farklı çalışma modu sunar:
 
@@ -63,12 +61,12 @@ Düşük sistem kaynağı tüketen, klavye ile yönetilen hızlı arayüz. Whipt
 
 ---
 
-## 📂 İşlemleri Yapınca Klasörün Son Hali
+##  İşlemleri Yapınca Klasörün Son Hali
 ![Klasör Son Hali](resimler/klasor_son_hali.png)
 
 ---
 
-## 🚀 İndirme ve Çalıştırma Rehberi
+##  İndirme ve Çalıştırma Rehberi
 
 Projeyi bilgisayarınıza indirip hemen test etmek için aşağıdaki adımları sırasıyla uygulayın.
 
@@ -77,22 +75,22 @@ Bu sayfanın sağ üst köşesindeki yeşil **"Code"** butonuna tıklayıp **"Do
 * İnen ZIP dosyasını **Masaüstüne** çıkartın.
 * Klasörün adı `Pardus-Media-Master` veya `Pardus-Media-Master-main` olabilir, sorun değil.
 
-**📂 Hazır Test Materyalleri:**
+** Hazır Test Materyalleri:**
 Klasörün içinde programı hemen denemeniz için örnek dosyalar bulunmaktadır:
 * **`ss1.jpg`**: **Yapay Zeka (OCR)** özelliğini bu resimle test edebilirsiniz.
 * **`galatasaray.png`**: **Format Dönüştürme** ve **Efektleri** bu resimle deneyebilirsiniz.
 
 ### 2. Kurulum (Gerekli Paketlerin Yüklenmesi)
 Programın hatasız çalışması için terminali açın ve şu komutu yapıştırarak gerekli kütüphaneleri yükleyin:
-
+´´´
 sudo apt update
 sudo apt install yad whiptail imagemagick graphicsmagick-imagemagick-compat tesseract-ocr tesseract-ocr-tur -y
-
+´´´
 kütüphanleri indirdikten sonra aşağıdaki kodlarlara giriş ekranını ulaşabilirsiniz:
-
+´´´
 cd ~/Masaüstü/Pardus-Media-Master*
 
 chmod +x pro_main.sh
 
 ./pro_main.sh
-
+´´´
