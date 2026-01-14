@@ -74,7 +74,9 @@ sudo apt install yad whiptail imagemagick graphicsmagick-imagemagick-compat tess
 ### 3. Programı Başlatma
 
 cd ~/Masaüstü/Pardus-Media-Master*
+
 chmod +x pro_main.sh
+
 ./pro_main.sh
 
 Program açıldığında GUI (Grafik Arayüz) seçeneğini seçin. Dosya seçme penceresi geldiğinde, klasörün içindeki ornek_metin.jpg dosyasını seçerek sonucu hemen görebilirsiniz.
