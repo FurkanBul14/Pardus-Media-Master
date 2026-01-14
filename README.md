@@ -62,6 +62,9 @@ Düşük sistem kaynağı tüketen, klavye ile yönetilen hızlı arayüz. Whipt
 ---
 
 ##  İşlemleri Yapınca Klasörün Son Hali
+
+İşlemlri yapınca yeni oluşanlarını klosörümüz içinde oluştuğunu görebilirsiniz.
+
 ![Klasör Son Hali](resimler/klasor_son_hali.png)
 
 ---
