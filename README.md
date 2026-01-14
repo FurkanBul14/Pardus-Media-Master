@@ -2,8 +2,6 @@
 
 > **Linux dünyasında komut satırına hapsolmadan; resim işleme, format dönüştürme ve Yapay Zeka (OCR) işlemlerini tek bir çatı altında toplayan profesyonel bir Bash Script projesi.**
 
-![Başlangıç Seçimi](resimler/baslangic_secimi.png)
-
 ## 📖 Proje Hakkında
 
 Bu proje, **Kabuk Programlama (Shell Scripting)** dersi kapsamında geliştirilmiştir. Temel amacı, Linux terminalinde güçlü ancak kullanımı karmaşık olan `ImageMagick` ve `Tesseract` gibi araçları, son kullanıcı için basit ve anlaşılır bir arayüze kavuşturmaktır.
@@ -27,6 +25,8 @@ Bu projenin arkasında yatan güç, aşağıdaki açık kaynak teknolojilerin bi
 
 Proje açılışta kullanıcıya iki farklı çalışma modu sunar:
 
+![Başlangıç Mod Seçimi](resimler/baslangic_secimi.png)
+
 ### 1. Grafiksel Kullanıcı Arayüzü (GUI)
 Fare ve pencere odaklı, modern bir deneyim sunar. YAD kütüphanesi ile tasarlanmıştır.
 
@@ -36,7 +36,7 @@ Fare ve pencere odaklı, modern bir deneyim sunar. YAD kütüphanesi ile tasarla
 * **Gelişmiş Efektler:** Siyah-Beyaz, Negatif ve **Sepia (Nostalji)** efektleri.
 * **Teknik Analiz:** Resimlerin EXIF ve boyut bilgilerini raporlar.
 
-*(Aşağıdaki görselde GUI Ana Menüsü ve OCR işlem sonucu görülmektedir)*
+*(Aşağıdaki görselde GUI Ana Menüsü, Analiz ve OCR işlem sonuçları görülmektedir)*
 
 ![GUI Ana Menü](resimler/gui_ana_menu.png)
 ![Analiz Raporu](resimler/gui_analiz_raporu.png)
@@ -51,13 +51,13 @@ Düşük sistem kaynağı tüketen, klavye ile yönetilen hızlı arayüz. Whipt
 * Sistem yöneticileri ve terminal severler için optimize edilmiştir.
 * Hızlı ve pratiktir.
 
-*(Aşağıdaki görselde Terminal Arayüzü menü yapısı görülmektedir)*
+*(Aşağıdaki görselde Terminal Arayüzü menü yapısı ve işlem adımları görülmektedir)*
 
 ![TUI Ana Menü](resimler/tui_ana_menu.png)
 ![Dosya Girişi](resimler/tui_dosya_girisi.png)
 ![Döndürme Girişi](resimler/tui_dondurme_girisi.png)
 
-**İşlem Öncesi ve Sonrası (Boyut Kanıtı):**
+**İşlem Öncesi ve Sonrası Kanıtı (Boyut Küçültme & Efekt):**
 ![Boyut Kanıtı](resimler/tui_buyut_kanit.png)
 ![Siyah Beyaz Sonuç](resimler/tui_sb_sonuc.png)
 
