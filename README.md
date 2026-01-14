@@ -53,7 +53,7 @@ Düşük sistem kaynağı tüketen, klavye ile yönetilen hızlı arayüz. Whipt
 
 ![TUI Ana Menü](resimler/tui_ana_menu.png)
 ![Dosya Girişi](resimler/tui_dosya_girisi.png)
-![Döndürme Girişi](resimler/tui_dondurme_girisi.png)
+![Döndürme Girişi](resimler/tui_döndürme_girisi.png)
 
 **İşlem Öncesi ve Sonrası Kanıtı (Boyut Küçültme & Efekt):**
 ![Boyut Kanıtı](resimler/tui_buyut_kanit.png)
