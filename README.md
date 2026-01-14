@@ -63,6 +63,11 @@ Düşük sistem kaynağı tüketen, klavye ile yönetilen hızlı arayüz. Whipt
 
 ---
 
+## 📂 İşlemleri Yapınca Klasörün Son Hali
+![Klasör Son Hali](resimler/klasor_son_hali.png)
+
+---
+
 ## 🚀 İndirme ve Çalıştırma Rehberi
 
 Projeyi bilgisayarınıza indirip hemen test etmek için aşağıdaki adımları sırasıyla uygulayın.
@@ -76,8 +81,6 @@ Bu sayfanın sağ üst köşesindeki yeşil **"Code"** butonuna tıklayıp **"Do
 Klasörün içinde programı hemen denemeniz için örnek dosyalar bulunmaktadır:
 * **`ornek_metin.jpg`**: **Yapay Zeka (OCR)** özelliğini bu resimle test edebilirsiniz.
 * **`ornek_logo.png`**: **Format Dönüştürme** ve **Efektleri** bu resimle deneyebilirsiniz.
-
-![Klasör Son Hali](resimler/klasor_son_hali.png)
 
 ### 2. Kurulum (Gerekli Paketlerin Yüklenmesi)
 Programın hatasız çalışması için terminali açın ve şu komutu yapıştırarak gerekli kütüphaneleri yükleyin:
