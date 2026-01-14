@@ -82,15 +82,15 @@ Klasörün içinde programı hemen denemeniz için örnek dosyalar bulunmaktadı
 
 ### 2. Kurulum (Gerekli Paketlerin Yüklenmesi)
 Programın hatasız çalışması için terminali açın ve şu komutu yapıştırarak gerekli kütüphaneleri yükleyin:
-´´´
+```
 sudo apt update
 sudo apt install yad whiptail imagemagick graphicsmagick-imagemagick-compat tesseract-ocr tesseract-ocr-tur -y
-´´´
+```
 kütüphanleri indirdikten sonra aşağıdaki kodlarlara giriş ekranını ulaşabilirsiniz:
-´´´
+```
 cd ~/Masaüstü/Pardus-Media-Master*
 
 chmod +x pro_main.sh
 
 ./pro_main.sh
-´´´
+```
