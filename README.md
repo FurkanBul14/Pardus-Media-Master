@@ -29,13 +29,13 @@ Proje açılışta kullanıcıya iki farklı çalışma modu sunar:
 Fare ve pencere odaklı, modern bir deneyim sunar. YAD kütüphanesi ile tasarlanmıştır.
 
 **Öne Çıkan Özellikler:**
-* **Akıllı Format Dönüştürme:** JPG, PNG, PDF arası dönüşüm (Eski dosyaları otomatik temizleme özelliği).
+* **Akıllı Format Dönüştürme:** JPG, PNG, PDF arası dönüşüm (Dönüşüm sonrası eski dosyayı otomatik temizleme).
 * **Yapay Zeka Destekli OCR:** Kitap sayfası veya belge fotoğraflarındaki yazıları %99 doğrulukla metne (.txt) çevirir.
 * **Gelişmiş Efektler:** Siyah-Beyaz, Negatif ve **Sepia (Nostalji)** efektleri.
 * **Teknik Analiz:** Resimlerin EXIF ve boyut bilgilerini raporlar.
 
 *(Aşağıdaki görselde GUI Ana Menüsü ve OCR işlem sonucu görülmektedir)*
-![GUI Ana Menü ve OCR](assets/gui_ornek.png)
+![GUI Ana Menü](assets/gui_ornek.png)
 
 ### 2. Terminal Tabanlı Arayüz (TUI)
 Düşük sistem kaynağı tüketen, klavye ile yönetilen hızlı arayüz. Whiptail kütüphanesi ile tasarlanmıştır.
@@ -54,21 +54,39 @@ Düşük sistem kaynağı tüketen, klavye ile yönetilen hızlı arayüz. Whipt
 
 Projeyi bilgisayarınıza indirip hemen test etmek için aşağıdaki adımları sırasıyla uygulayın.
 
-### 1. Projeyi İndirme
-Bu sayfanın sağ üst köşesindeki yeşil **"Code"** butonuna tıklayın ve **"Download ZIP"** seçeneğini seçin. İnen dosyayı masaüstüne çıkartın.
+### 1. İndirme ve Hazırlık
+Bu sayfanın sağ üst köşesindeki yeşil **"Code"** butonuna tıklayıp **"Download ZIP"** seçeneği ile dosyayı indirin.
+* İnen ZIP dosyasını **Masaüstüne** çıkartın.
+* Klasörün adı `Pardus-Media-Master` veya `Pardus-Media-Master-main` olabilir, sorun değil.
 
-*(Alternatif olarak Git kullanıyorsanız terminalden `git clone` komutu ile de çekebilirsiniz.)*
+**📂 Hazır Test Materyalleri:**
+Klasörün içinde programı hemen denemeniz için örnek dosyalar bulunmaktadır:
+* **`ornek_metin.jpg`**: **Yapay Zeka (OCR)** özelliğini bu resimle test edebilirsiniz.
+* **`ornek_logo.png`**: **Format Dönüştürme** ve **Efektleri** bu resimle deneyebilirsiniz.
 
-### 2. Hazır Test Materyalleri
-İndirdiğiniz klasörün içinde, programın özelliklerini hemen deneyebilmeniz için özel test resimleri bulunmaktadır:
+### 2. Kurulum (Gerekli Paketlerin Yüklenmesi)
+Programın hatasız çalışması için terminali açın ve şu komutu yapıştırarak gerekli kütüphaneleri yükleyin:
 
-* **`ss1.png`**: Bu resmi seçerek **Yapay Zeka (OCR)** özelliğini test edebilir, resimdeki yazıları metne çevirebilirsiniz.
-* **`galatasaray.jpg`**: Bu resmi kullanarak **Format Dönüştürme, Sepia Efekti** ve **Boyutlandırma** işlemlerini deneyebilirsiniz.
 
-### 3. Komutları Çalıştırma
-Terminali açın, indirdiğiniz proje klasörünün içine girin ve sırasıyla şu komutları uygulayın:
+sudo apt update
+sudo apt install yad whiptail imagemagick graphicsmagick-imagemagick-compat tesseract-ocr tesseract-ocr-tur -y
 
-**Adım 1: Çalıştırma İzni Verin**
-(Bu işlem sadece ilk seferde gereklidir)
-```bash
+### 3. Programı Başlatma
+
+**Adım 1: Klasörün İçine Girin**
+Terminali açın ve şu komutu yapıştırın:
+*(Not: Sondaki yıldız işareti, klasör isminiz `-main` ile bitse bile terminalin doğru yeri bulmasını sağlar.)*
+
+cd ~/Masaüstü/Pardus-Media-Master*
+Adım 2: Çalıştırma İzni Verin
+Script dosyasının çalışabilmesi için şu komutu girin:
+
+B
+
 chmod +x pro_main.sh
+Adım 3: Çalıştırın
+Artık programı başlatabilirsiniz:
+
+
+./pro_main.sh
+Program açıldığında GUI (Grafik Arayüz) seçeneğini seçin. Dosya seçme penceresi geldiğinde, klasörün içindeki ornek_metin.jpg dosyasını seçerek sonucu hemen görebilirsiniz.
