@@ -79,12 +79,20 @@ Bu sayfanın sağ üst köşesindeki yeşil **"Code"** butonuna tıklayıp **"Do
 
 **📂 Hazır Test Materyalleri:**
 Klasörün içinde programı hemen denemeniz için örnek dosyalar bulunmaktadır:
-* **`ornek_metin.jpg`**: **Yapay Zeka (OCR)** özelliğini bu resimle test edebilirsiniz.
-* **`ornek_logo.png`**: **Format Dönüştürme** ve **Efektleri** bu resimle deneyebilirsiniz.
+* **`ss1.jpg`**: **Yapay Zeka (OCR)** özelliğini bu resimle test edebilirsiniz.
+* **`galatasaray.png`**: **Format Dönüştürme** ve **Efektleri** bu resimle deneyebilirsiniz.
 
 ### 2. Kurulum (Gerekli Paketlerin Yüklenmesi)
 Programın hatasız çalışması için terminali açın ve şu komutu yapıştırarak gerekli kütüphaneleri yükleyin:
 
-```bash
 sudo apt update
 sudo apt install yad whiptail imagemagick graphicsmagick-imagemagick-compat tesseract-ocr tesseract-ocr-tur -y
+
+kütüphanleri indirdikten sonra aşağıdaki kodlarlara giriş ekranını ulaşabilirsiniz:
+
+cd ~/Masaüstü/Pardus-Media-Master*
+
+chmod +x pro_main.sh
+
+./pro_main.sh
+
